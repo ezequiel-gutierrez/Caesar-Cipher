@@ -13,19 +13,20 @@
         <h1>Caesar Cipher</h1>
     </header>
     <main>
-        <form id="pick-process">
+        <form id="form-element">
             <p>What would you like to do?</p>
-            <input type="radio" name="process" id="encrypt-radio">
+            <input type="radio" name="process" id="encrypt-radio" value="Encrypt">
             <label for="encrypt-radio">Encrypt</label><br>
-            <input type="radio" name="process" id="decipher-radio">
+            <input type="radio" name="process" id="decipher-radio" value="Decipher">
             <label for="decipher-radio">Decipher</label>
-        </form>
-        <form id="write-and-submit">
-            <label for="text-area">Write your text here:</label><br>
-            <textarea name="message" id="message" rows="4" cols="50" placeholder="Your message goes here..."></textarea><br>
+            <br>
+            <br>
             <label for="shift-key">How many letters you want to shift the key?</label><br>
             <input type="number" name="shift-key" id="shift-key"><br>
-            <input type="submit" value="Submit">
+            <br>
+            <label for="text-area">Write your text here:</label><br>
+            <textarea name="message" id="message" rows="4" cols="50" placeholder="Your message goes here..."></textarea><br>
+            <input type="button" value="Submit" id="submit-button">
         </form>
     </main>
     <footer>
